@@ -1,0 +1,90 @@
+#formulario {
+    width: 60%;
+    margin: auto;
+}
+
+#cajas {
+    width: 60%;
+    margin: auto;
+}
+
+#buttons {
+    padding-top: 10px;
+}
+
+#cajas div div {
+    width: 100px;
+    height: 100px;
+    border: solid 1px gray;
+    display: inline-block;
+}
+
+p {
+    margin-top: 20px;
+}
+
+form {
+    background-color: rgb(236, 226, 199);
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.green {
+    background-color: rgb(142, 200, 142);
+    color: white;
+}
+
+.red {
+    background-color: rgb(255, 136, 128);
+    color: white;
+}
+
+.dark {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.light {
+    background-color: #fff;
+    color: #212529;
+}
+
+header {
+    padding: 7px;
+    background-color: rgb(236, 226, 199);
+    color: #212529;
+}
+
+header section div {
+    margin-top: 8px !important; 
+}
+
+footer {
+    background-color: #0d6efd;
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+
+    h1,h2,h3 {
+        text-align: center;
+    }
+
+    #formulario {
+        width: 100%;
+        margin: auto;
+    }
+
+    form {
+        width: 100%;
+    }
+}

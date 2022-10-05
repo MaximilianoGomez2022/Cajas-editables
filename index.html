@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajas Editables</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="mb-5">
+    <section class="container">
+      <div class="row">
+        <div class="col-9">
+          <h1>Cajas Editables</h1>
+        </div>
+        <div class="col-3" id="buttons">
+          <button class="btn btn-dark" id="dark">Dark mode</button>
+          <button class="btn btn-light" id="light">Light mode</button>
+        </div>
+      </div>
+  </section>
+  </header>
+
+
+    <section id="cajas" class="container  mb-5">
+      <h2>Hacé click sobre la caja , luego colocá el nombre la propiedad Css y su valor para cambiarle el estilo</h2>
+      <div class="d-flex justify-content-between">
+        <div id="caja1">#1</div>
+        <div id="caja2">#2</div>
+        <div id="caja3">#3</div>
+        <div id="caja4">#4</div>
+        <div id="caja5">#5</div>
+      </div>
+    </section>
+
+    <section class="container" id="formulario">
+        <form>
+
+            <div class="form-group">
+              <label for="propiedad">Propiedad Css</label>
+              <input type="text" class="form-control" id="propiedad" placeholder="Ingrese la propiedad">
+            </div>
+    
+              <div class="form-group">
+                <label for="nota3">Ingresa el valor</label>
+                <input type="text" class="form-control" id="valor" placeholder="Ingrese el valor">
+              </div>
+    
+            <button type="button" id="boton" class="btn btn-primary w-100">Mostrar resultados</button>
+          </form>
+          <div id="msj" class="alert"></div>
+    </section>
+    <footer>Maximiliano Gomez - 2022</footer>
+<script src="cajas.js"></script>
+</body>
+</html>
